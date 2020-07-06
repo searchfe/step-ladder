@@ -1,6 +1,6 @@
 {
   "name": "funnel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/lift.js",
   "types": "./dist/type/lift.d.ts",
