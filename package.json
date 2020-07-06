@@ -1,6 +1,6 @@
 {
-  "name": "funnel",
-  "version": "1.0.2",
+  "name": "step-ladder",
+  "version": "1.0.3",
   "description": "",
   "main": "./dist/lift.js",
   "types": "./dist/type/lift.d.ts",
@@ -10,8 +10,8 @@
     "test": "jest",
     "lint": "eslint ./src/*.ts ./__test/*.ts",
     "push": "git push --follow-tags origin master",
-    "release:major": "standard-version --release-as major && npm push",
-    "release:minor": "standard-version --release-as minor && npm push",
+    "release:major": "standard-version --release-as major && npm run push",
+    "release:minor": "standard-version --release-as minor && npm run push",
     "release:patch": "standard-version --release-as patch && npm run push"
   },
   "files": [
