@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "rootDir": "src",
+        "declarationDir": "./dist/type",
+        "declaration": true,
+        "module": "ES2015",
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "baseUrl": ".",
+        "paths": {
+            "tslib": ["node_modules/tslib/tslib.d.ts"]
+        },
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "src/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "__test__"
+    ]
+}
