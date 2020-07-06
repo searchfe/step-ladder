@@ -1,6 +1,6 @@
 {
   "name": "funnel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/lift.js",
   "types": "./dist/type/lift.d.ts",
@@ -12,7 +12,7 @@
     "push": "git push --follow-tags origin master",
     "release:major": "standard-version --release-as major && npm push",
     "release:minor": "standard-version --release-as minor && npm push",
-    "release:patch": "standard-version --release-as patch && npm push"
+    "release:patch": "standard-version --release-as patch && npm run push"
   },
   "files": [
     "dist"
