@@ -1,6 +1,6 @@
 {
   "name": "step-ladder",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/lift.js",
   "types": "./dist/type/lift.d.ts",
