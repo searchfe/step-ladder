@@ -1,6 +1,6 @@
 {
   "name": "step-ladder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/lift.js",
   "types": "./dist/type/lift.d.ts",
@@ -18,7 +18,7 @@
     "dist"
   ],
   "author": "EastLee",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
